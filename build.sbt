@@ -1,8 +1,8 @@
 name := "actors"
 
-version := "0.2"
+version := "0.3.1"
 
-organization := "reactivepi"
+organization := "nl.fizzylogic.reactivepi"
 
 bintrayOrganization := Some("reactivepi")
 
@@ -20,6 +20,6 @@ libraryDependencies ++= {
   Seq(
     "com.typesafe.akka" %% "akka-actor" % akkaVersion,
     "com.typesafe.akka" %% "akka-testkit" % akkaVersion % "test",
-    "reactivepi" %% "core" % "0.2"
+    "nl.fizzylogic.reactivepi" %% "core" % "0.3.1"
   )
 }
